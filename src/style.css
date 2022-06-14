@@ -26,20 +26,20 @@ nav {
 section {
   padding: 20px;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
 .hero--image {
-  padding: 100px;
+  max-width: 400px;
+  align-self: center;
 }
 
 .hero--header {
-  height: 40px;
-  font-size: 36px;
-  font-weight: 600;
-  padding: 36px;
+  margin-bottom: 16px;
 }
 
 .hero--text {
-  height: 56px;
-  font-size: 16px;
-  font-weight: 300;
-  padding: 20px 36px;
+  margin-top: 0px;
 }
