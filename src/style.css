@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+body, html {
+  font-family: 'Poppins', sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -19,4 +25,11 @@ nav {
 
 .hero--image {
   padding: 20px 100px;
+}
+
+.hero--h1 {
+  font-size: 36px;
+  height: 40px;
+  font-weight: 600;
+  padding: 20px 36px;
 }
