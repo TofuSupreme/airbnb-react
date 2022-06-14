@@ -16,3 +16,7 @@ nav {
 .nav--logo {
   max-width: 100px;
 }
+
+.hero--image {
+  padding: 20px 100px;
+}
