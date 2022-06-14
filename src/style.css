@@ -23,18 +23,21 @@ nav {
   max-width: 100px;
 }
 
+section {
+  padding: 20px;
+}
 .hero--image {
-  padding: 20px 100px;
+  padding: 100px;
 }
 
-.hero--h1 {
+.hero--header {
   height: 40px;
   font-size: 36px;
   font-weight: 600;
-  padding: 20px 36px;
+  padding: 36px;
 }
 
-.hero--p {
+.hero--text {
   height: 56px;
   font-size: 16px;
   font-weight: 300;
