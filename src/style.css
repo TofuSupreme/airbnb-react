@@ -28,8 +28,15 @@ nav {
 }
 
 .hero--h1 {
-  font-size: 36px;
   height: 40px;
+  font-size: 36px;
   font-weight: 600;
+  padding: 20px 36px;
+}
+
+.hero--p {
+  height: 56px;
+  font-size: 16px;
+  font-weight: 300;
   padding: 20px 36px;
 }
