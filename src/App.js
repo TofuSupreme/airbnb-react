@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="container">
       <Navbar />
-      <h1> App Container </h1>
     </div>
   );
 }
