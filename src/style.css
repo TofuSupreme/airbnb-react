@@ -48,3 +48,15 @@ section {
   max-width: 15px;
   margin-right: 5px;
 }
+
+.card--rating--rates {
+  color: #918E9B;
+}
+
+.card--rating--info {
+  color: #000;
+}
+
+.card--rating--price {
+  font-weight: 600;
+}

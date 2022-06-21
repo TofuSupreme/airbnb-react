@@ -8,9 +8,16 @@ export default function Card() {
       <img src={zaferes} alt="zaferes" className="card--image--zaferes" />
       <p className="card--rating">
       <img src={star} alt="star" className="card--image--star" />
-        5.0 (6) * USA <br></br>
-        Life lessons with Katie Zaferes<br></br>
-        <span className="card--price">From $136</span> / person
+        5.0
+        <span className="card--rating--rates">
+          (6) * USA
+        </span>
+        <br></br>
+        <span className="card--rating--info">
+          Life lessons with Katie Zaferes
+        </span>
+        <br></br>
+        <span className="card--rating--price">From $136</span> / person
       </p>
     </section>
   )
