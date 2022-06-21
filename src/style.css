@@ -51,6 +51,7 @@ section {
 
 .card--rating--rates {
   color: #918E9B;
+  margin-left: 5px;
 }
 
 .card--rating--info {
