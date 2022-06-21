@@ -43,3 +43,8 @@ section {
 .hero--text {
   margin-top: 0px;
 }
+
+.card--image--star {
+  max-width: 15px;
+  margin-right: 5px;
+}
