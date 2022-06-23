@@ -48,12 +48,10 @@ section {
   position: relative;
   width: 50%;
 }
-
-.card--image--zaferes {
-  width: 50%;
-  height: auto;
+.card--image {
+  height: 235px;
+  width: 176px;
 }
-
 .card--button--status {
   position: absolute;
   top: 10%;

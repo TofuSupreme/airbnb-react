@@ -7,15 +7,14 @@ export default function Card() {
   return (
     <div className="card--container">
       <div className="card--image--container">
-      <img src={zaferes} alt="zaferes" className="card--image" />
-      <button className="card--button--status"> SOLD OUT</button>
+      <img className ="card--image" src={zaferes} alt="zaferes" />
+        <button className="card--button--status"> SOLD OUT</button>
       <p className="card--rating">
       <img src={star} alt="star" className="card--image--star" />
         5.0
-        <p className="card--rating--rates">
-          (6) * USA
-        </p>
-        <br></br>
+        <span className="card--rating--rates">
+            (6) * USA
+        </span>
         <p className="card--rating--info">
           Life lessons with Katie Zaferes
         </p>
@@ -26,18 +25,13 @@ export default function Card() {
       <button className="card--button--status"> SOLD OUT</button>
       <p className="card--rating">
         <img src={star} alt="star" className="card--image--star" />
-        5.0
-        <p className="card--rating--rates">
-          (30) * USA
-        </p>
-        <br></br>
+          5.0
+          <span className="card--rating--rates"> (30) * USA </span>
         <p className="card--rating--info">
           Learn wedding photography
         </p>
-        <br></br>
         <span className="card--rating--price">From $125</span> / person
         </p>
-
       </div>
     </div>
 
