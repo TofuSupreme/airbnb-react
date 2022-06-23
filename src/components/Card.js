@@ -9,18 +9,16 @@ export default function Card() {
       <div className="card--image--container">
       <img className ="card--image" src={zaferes} alt="zaferes" />
         <button className="card--button--status"> SOLD OUT</button>
-      <p className="card--rating">
-      <img src={star} alt="star" className="card--image--star" />
-        5.0
-        <span className="card--rating--rates">
-            (6) * USA
-        </span>
+        <div className="card--stats">
+        <img src={star} alt="star" className="card--image--star" />
+        <span> 5.0 </span>
+          <span>(6) • </span>
+          <span> USA </span>
+        </div>
         <p className="card--rating--info">
           Life lessons with Katie Zaferes
         </p>
-        <br></br>
         <span className="card--rating--price">From $136</span> / person
-        </p>
       <img src={weddingPhoto} alt="weddingPhoto" className="card--image" />
       <button className="card--button--status"> SOLD OUT</button>
       <p className="card--rating">
