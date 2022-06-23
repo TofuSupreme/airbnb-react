@@ -44,13 +44,12 @@ section {
   margin-top: 0px;
 }
 
-.card {
-  position: relative;
-  width: 50%;
+.card--container {
+  width: 175px;
+  font-size: 12px;
 }
 .card--image {
-  height: 235px;
-  width: 176px;
+  width: 100%;
 }
 .card--button--status {
   position: absolute;
