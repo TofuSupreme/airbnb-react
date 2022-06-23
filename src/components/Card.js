@@ -4,22 +4,25 @@ import zaferes from "../images/zaferes.png";
 
 export default function Card() {
   return (
-    <section className="card">
+    <div className="card--container">
+      <div className="card--image-container">
       <img src={zaferes} alt="zaferes" className="card--image--zaferes" />
       <button className="card--button--status"> SOLD OUT</button>
       <p className="card--rating">
       <img src={star} alt="star" className="card--image--star" />
         5.0
-        <span className="card--rating--rates">
+        <p className="card--rating--rates">
           (6) * USA
-        </span>
+        </p>
         <br></br>
-        <span className="card--rating--info">
+        <p className="card--rating--info">
           Life lessons with Katie Zaferes
-        </span>
+        </p>
         <br></br>
         <span className="card--rating--price">From $136</span> / person
       </p>
-    </section>
+      </div>
+    </div>
+
   )
 }
