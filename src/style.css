@@ -11,9 +11,13 @@ body, html {
 body {
   margin: 0;
 }
+.bold {
+  font-weight: bold;
+}
 .gray {
   color: #918E9B;
 }
+
 nav {
   height: 70px;
   display: flex;
@@ -76,8 +80,4 @@ section {
 .card--star {
   max-width: 15px;
   margin-right: 5px;
-}
-
-.card--rating--price {
-  font-weight: 600;
 }
