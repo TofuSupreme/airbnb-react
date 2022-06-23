@@ -6,7 +6,7 @@ export default function Card() {
   return (
     <section className="card">
       <img src={zaferes} alt="zaferes" className="card--image--zaferes" />
-      <button className="card--button--status"> Sold Out</button>
+      <button className="card--button--status"> SOLD OUT</button>
       <p className="card--rating">
       <img src={star} alt="star" className="card--image--star" />
         5.0

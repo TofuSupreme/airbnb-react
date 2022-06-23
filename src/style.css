@@ -44,6 +44,30 @@ section {
   margin-top: 0px;
 }
 
+.card {
+  position: relative;
+  width: 50%;
+}
+
+.card--image--zaferes {
+  width: 50%;
+  height: auto;
+}
+
+.card--button--status {
+  position: absolute;
+  top: 10%;
+  right: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
 .card--image--star {
   max-width: 15px;
   margin-right: 5px;
