@@ -1,12 +1,13 @@
 import React from "react";
-import star from '../images/star.png';
+import star from "../images/star.png";
 import zaferes from "../images/zaferes.png";
+import weddingPhoto from "../images/weddingPhoto.png";
 
 export default function Card() {
   return (
     <div className="card--container">
-      <div className="card--image-container">
-      <img src={zaferes} alt="zaferes" className="card--image--zaferes" />
+      <div className="card--image--container">
+      <img src={zaferes} alt="zaferes" className="card--image" />
       <button className="card--button--status"> SOLD OUT</button>
       <p className="card--rating">
       <img src={star} alt="star" className="card--image--star" />
@@ -20,7 +21,23 @@ export default function Card() {
         </p>
         <br></br>
         <span className="card--rating--price">From $136</span> / person
-      </p>
+        </p>
+      <img src={weddingPhoto} alt="weddingPhoto" className="card--image" />
+      <button className="card--button--status"> SOLD OUT</button>
+      <p className="card--rating">
+        <img src={star} alt="star" className="card--image--star" />
+        5.0
+        <p className="card--rating--rates">
+          (30) * USA
+        </p>
+        <br></br>
+        <p className="card--rating--info">
+          Learn wedding photography
+        </p>
+        <br></br>
+        <span className="card--rating--price">From $125</span> / person
+        </p>
+
       </div>
     </div>
 
