@@ -16,10 +16,14 @@ export default function Card() {
         </div>
         <p className="card--rating--info">
           Life lessons with Katie Zaferes
-        </p>
-      <span className="card--rating--price">From $136</span> / person
+      </p>
+      <p>
+        <span className="card--rating--price">From $136
+        </span>
+        / person
+      </p>
 
-      <img src={weddingPhoto} alt="weddingPhoto" className="card--image" />
+      {/* <img src={weddingPhoto} alt="weddingPhoto" className="card--image" />
       <button className="card--button--status"> SOLD OUT</button>
       <div className="card--stats">
         <img src={star} alt="star" className="card--image--star" />
@@ -30,8 +34,10 @@ export default function Card() {
         <p className="card--rating--info">
           Learn wedding photography
         </p>
-          <span className="card--rating--price">From $125</span> / person
-      </div>
+        <p>
+          <span className="card--rating--price"> From $125</span>
+        / person</p>
+      </div> */}
     </div>
 
   )
