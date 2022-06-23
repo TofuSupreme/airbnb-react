@@ -9,10 +9,10 @@ export default function Card() {
       <img className ="card--image" src={zaferes} alt="zaferes" />
         <button className="card--button--status"> SOLD OUT</button>
         <div className="card--stats">
-        <img src={star} alt="star" className="card--image--star" />
+        <img src={star} alt="star" className="card--star" />
         <span> 5.0 </span>
-        <span>(6) • </span>
-        <span> USA </span>
+        <span className="gray"> (6) • </span>
+        <span className="gray"> USA </span>
         </div>
         <p className="card--rating--info">
           Life lessons with Katie Zaferes

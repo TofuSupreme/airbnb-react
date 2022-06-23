@@ -11,7 +11,9 @@ body, html {
 body {
   margin: 0;
 }
-
+.gray {
+  color: #918E9B;
+}
 nav {
   height: 70px;
   display: flex;
@@ -50,6 +52,7 @@ section {
 }
 .card--image {
   width: 100%;
+  border-radius: 9px;
 }
 .card--button--status {
   position: absolute;
@@ -65,18 +68,14 @@ section {
   cursor: pointer;
   border-radius: 5px;
 }
-.card--image--star {
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+.card--star {
   max-width: 15px;
   margin-right: 5px;
-}
-
-.card--rating--rates {
-  color: #918E9B;
-  margin-left: 5px;
-}
-
-.card--rating--info {
-  color: #000;
 }
 
 .card--rating--price {
