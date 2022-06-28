@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
-
+import zaferes from './images/zaferes.png';
 import './style.css';
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Card
-        img="../images/zaferes.png"
+        img={zaferes}
         rating="5.0"
         reviewCount={6}
         country="USA"

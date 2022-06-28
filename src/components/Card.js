@@ -1,22 +1,22 @@
 import React from "react";
 import star from "../images/star.png";
-import zaferes from "../images/zaferes.png";
 import weddingPhoto from "../images/weddingPhoto.png";
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div className="card--container">
-      <img className ="card--image" src={zaferes} alt="zaferes" />
-        <button className="card--button--status"> SOLD OUT</button>
+      <img className ="card--image" src={props.img} alt="zaferes" />
+        {/* <button className="card--button--status"> SOLD OUT</button> */}
         <div className="card--stats">
           <img src={star} alt="star" className="card--star" />
-          <span> 5.0 </span>
-          <span className="gray"> (6) • </span>
-          <span className="gray"> USA </span>
+          <span> {props.rating} </span>
+          <span className="gray"> {props.reviewCount} • </span>
+          <span className="gray"> {props.country} </span>
         </div>
-        <p> Life lessons with Katie Zaferes
+        <p>
+        {props.title}
         </p>
-        <p> <span className="bold">From $136</span>/ person
+      <p> <span className="bold">From {props.price}</span>/ person
         </p>
 
       {/* <img src={weddingPhoto} alt="weddingPhoto" className="card--image" />
