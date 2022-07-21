@@ -6,23 +6,25 @@ import airBnbData
   from './components/data';
 import './style.css';
 function App() {
-  airBnbData.map(item => {
+  const dataElement = airBnbData.map(item => {
     console.log(item);
+    return <Card
+      img={item.coverImg}
+      rating={item.stats.rating}
+      reviewCount={item.stats.reviewCount}
+      country={item.location}
+      title={item.title}
+      price={item.price}
+    />
+  });
+
     return (
       <div className="container">
         <Navbar />
         <Hero />
-        <Card
-          img={item.coverImg}
-          rating="5.0"
-          reviewCount={6}
-          country="USA"
-          title="Life Lessons with Katie Zaferes"
-          price={136} />
-
+        {dataElement}
       </div>
-    );
-  });
+  );
 };
 
 export default App;
