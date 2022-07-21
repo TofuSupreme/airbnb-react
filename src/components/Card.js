@@ -1,7 +1,6 @@
 import React from "react";
 import star from "../images/star.png";
-import weddingPhoto from "../images/weddingPhoto.png";
-
+// import weddingPhoto from "../../public/images/weddingPhoto.png";
 export default function Card(props) {
   return (
     <div className="card--container">
