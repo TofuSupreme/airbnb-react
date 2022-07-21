@@ -1,5 +1,5 @@
 import React from "react";
-import groupImage from "../images/groupImage.png"
+import groupImage from "./moreImages/groupImage.png";
 export default function Hero() {
   return (
     <section className="hero">
