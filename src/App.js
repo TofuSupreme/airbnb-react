@@ -9,7 +9,7 @@ function App() {
   const dataElement = airBnbData.map(item => {
     console.log(item);
     return <Card
-      img src={item.coverImg}
+      img ={item.coverImg}
       rating={item.stats.rating}
       reviewCount={item.stats.reviewCount}
       country={item.location}
