@@ -1,9 +1,8 @@
 import React from "react";
-import groupImage from "../images/groupImage.png";
 export default function Hero() {
   return (
     <section className="hero">
-      <img src={groupImage} alt="groupImage" className="hero--image" />
+      <img src={`${process.env.PUBLIC_URL}/assets/images/groupImage.png`}  alt="groupImage" className="hero--image" />
       <h1 className="hero--header">
         Online Experiences
       </h1>
