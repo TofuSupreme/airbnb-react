@@ -10,7 +10,7 @@ function App() {
     console.log(item);
     return <Card
       key={item.id}
-      item={item}
+      { ...item}
     />
   });
 
