@@ -1,83 +1,90 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
-
-body, html {
-  font-family: 'Poppins', sans-serif;
-}
-
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-}
-.bold {
-  font-weight: bold;
-}
-.gray {
-  color: #918E9B;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
-  height: 70px;
-  display: flex;
-  padding: 20px 36px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.gray {
+    color: #918E9B;
 }
 
 .nav--logo {
-  max-width: 100px;
+    max-width: 100px;
 }
 
 section {
-  padding: 20px;
+    padding: 20px;
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-.hero--image {
-  max-width: 400px;
-  align-self: center;
+
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
 }
 
 .hero--header {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .hero--text {
-  margin-top: 0px;
+    margin-top: 0;
 }
 
-.card--container {
-  width: 175px;
-  font-size: 12px;
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
 }
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+}
+
 .card--image {
-  width: 100%;
-  border-radius: 9px;
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
 }
-.card--button--status {
-  position: absolute;
-  top: 10%;
-  right: 70%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #fff;
-  color: #000;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+
+/* ADD */
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card--stats {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 .card--star {
-  max-width: 15px;
-  margin-right: 5px;
+    height: 14px;
+}
+
+/* ADD */
+.card--price {
+    margin-top: auto;
 }
