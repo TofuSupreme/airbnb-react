@@ -9,6 +9,7 @@ function App() {
   const cards = airBnbData.map(item => {
     console.log(item);
     return <Card
+      key={item.id}
       img ={item.coverImg}
       rating={item.stats.rating}
       reviewCount={item.stats.reviewCount}
