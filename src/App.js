@@ -6,7 +6,7 @@ import airBnbData
   from './components/data';
 import './style.css';
 function App() {
-  const dataElement = airBnbData.map(item => {
+  const cards = airBnbData.map(item => {
     console.log(item);
     return <Card
       img ={item.coverImg}
@@ -22,7 +22,9 @@ function App() {
       <div>
         <Navbar />
         <Hero />
-        {dataElement}
+        <section className="cards-list">
+          {cards}
+        </section>
       </div>
   );
 };
